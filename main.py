@@ -7,6 +7,5 @@ def main():
     app  = GUIInventaris(root)
     root.mainloop()
     
-
 if __name__ == '__main__':
     main()
