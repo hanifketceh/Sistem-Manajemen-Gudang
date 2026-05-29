@@ -1,0 +1,10 @@
+class GUIInventaris:
+    BG_DARK      = '#1A1D23'
+    BG_PANEL     = '#242830'
+    BG_CARD      = '#2E333D'
+    ACCENT       = '#F5A623'
+    ACCENT2      = '#4CAF82'
+    DANGER       = '#E05C5C'
+    TEXT_PRIMARY = '#F0F2F5'
+    TEXT_MUTED   = '#8B92A5'
+    BORDER       = '#363C4A'
