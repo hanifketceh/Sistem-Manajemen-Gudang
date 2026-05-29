@@ -71,3 +71,14 @@ if __name__ == "__main__":
     print("\n=== LOG RIWAYAT ===")
     for log in app.log_list.get_all_logs():
         print(log)
+import tkinter as tk
+from gui import GUIInventaris
+
+
+def main():
+    root = tk.Tk()
+    app  = GUIInventaris(root)
+    root.mainloop()
+    
+if __name__ == '__main__':
+    main()
