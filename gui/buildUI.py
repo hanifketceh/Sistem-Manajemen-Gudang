@@ -1,4 +1,5 @@
 def _build_ui(self):
+    #Header
     header = tk.Frame(self.root, bg=self.BG_DARK, pady=12)
     header.pack(fill='x', padx=20)
 
@@ -8,7 +9,8 @@ def _build_ui(self):
     tk.Label(header, text="  |  Algoritma & Struktur Data  —  UAP",
         bg=self.BG_DARK, fg=self.TEXT_MUTED,
         font=('Courier New', 10)).pack(side='left', pady=6)
-
+    
+    #Badge Notifikasi
     self.lbl_notif = tk.Label(header, text="",
         bg=self.DANGER, fg='white',
         font=('Courier New', 9, 'bold'),
@@ -16,6 +18,7 @@ def _build_ui(self):
     self.lbl_notif.pack(side='right', padx=4)
     self.lbl_notif.bind('<Button-1>', lambda e: self._show_notifikasi())
 
+    #Notebook
     self.nb = ttk.Notebook(self.root, style='Dark.TNotebook')
     self.nb.pack(fill='both', expand=True, padx=20, pady=(0, 10))
 
